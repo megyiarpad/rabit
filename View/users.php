@@ -7,8 +7,19 @@
 </head>
 <body>
     <div class="button">
-	<a href="View/users.php">Users</a></div>
-    <div class="button">
-    <a href="View/advertisements.php" >Advertisements</a></div>
+	<a href="../index.php">Back</a></div>
+<br> 
+<table>
+  <tr>
+    <th>Users</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+  </tr>
+</table>
+
 </body>
 </html>
