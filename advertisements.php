@@ -1,3 +1,9 @@
+<?php
+    include 'Controller/controller.php';
+    include 'Model/advertisementsmodel.php';
+    include 'View/viewadvertisement.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +15,9 @@
     <div class="button">
 	<a href="index.php">Back</a></div>
 <br> 
-
+<?php
+    $users = new ViewAdvertisement();
+    $users->showAllAdvertisement();
+?>
 </body>
 </html>
