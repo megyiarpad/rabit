@@ -1,7 +1,7 @@
 <?php
-    include 'Controller/controller.php';
-    include 'Model/advertisementsmodel.php';
-    include 'View/viewadvertisement.php';
+    include '../Model/basemodel.php';
+    include '../Model/usersmodel.php';
+    include '../Controller/viewuser.php';
 ?>
 
 <!DOCTYPE html>
@@ -13,11 +13,12 @@
 </head>
 <body>
     <div class="button">
-	<a href="index.php">Back</a></div>
+	<a href="index">Back</a></div>
 <br> 
 <?php
-    $users = new ViewAdvertisement();
-    $users->showAllAdvertisement();
+    $users = new ViewUser();
+    $users->showAllUsers();
 ?>
+
 </body>
 </html>

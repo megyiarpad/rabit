@@ -1,6 +1,6 @@
 <?php 
 
-class Advertisement extends Controller
+class Advertisement extends BaseModel
 {
 
     protected function getAllAdvertisement() {
