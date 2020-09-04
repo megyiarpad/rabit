@@ -1,3 +1,9 @@
+<?php
+    include 'Controller/controller.php';
+    include 'Model/usersmodel.php';
+    include 'View/viewuser.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,19 +13,12 @@
 </head>
 <body>
     <div class="button">
-	<a href="../index.php">Back</a></div>
+	<a href="index.php">Back</a></div>
 <br> 
-<table>
-  <tr>
-    <th>Users</th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-  </tr>
-</table>
+<?php
+    $users = new ViewUser();
+    $users->showAllUsers();
+?>
 
 </body>
 </html>

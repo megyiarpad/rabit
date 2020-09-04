@@ -2,20 +2,19 @@
 
 class Controller
 {
-    public $db = null;
+    private $servername;
+    private $username;
+    private $psswrd;
+    private $dbname;
 
-    function __construct() {
-        $this->openDatabaseConnection();
+    protected function connect() {
+        $this->servername = "localhost";
+        $this->username = "root";
+        $this->psswrd = "";
+        $this->dbname = "rabit";
+
+        $conn = new mysqli($this->servername, $this->username, 
+                            $this->psswrd , $this->dbname);
+        return $conn;
     }
-
-    private function openDatabaseConnection {
-        // Create connection
-        $conn = new mysqli('localhost', 'root');
-
-        // Check connection
-        if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
-            }
-        echo "Connected successfully";
-        }
 }

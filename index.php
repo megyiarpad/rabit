@@ -7,8 +7,8 @@
 </head>
 <body>
     <div class="button">
-	<a href="View/users.php">Users</a></div>
+	<a href="users.php">Users</a></div>
     <div class="button">
-    <a href="View/advertisements.php" >Advertisements</a></div>
+    <a href="advertisements.php" >Advertisements</a></div>
 </body>
 </html>
