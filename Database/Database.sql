@@ -38,9 +38,13 @@ CREATE TABLE `advertisements` (
 --
 
 INSERT INTO `advertisements` (`id`, `userid`, `title`) VALUES
-(1, 1, 'Book'),
-(2, 1, 'House'),
-(3, 2, 'Pets');
+(1, 5, 'Book'),
+(2, 5, 'House'),
+(3, 1, 'Toys'),
+(4, 1, 'Furniture'),
+(5, 1, 'Food'),
+(6, 4, 'Drink'),
+(7, 6, 'Pets');
 
 -- --------------------------------------------------------
 
@@ -58,8 +62,12 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`) VALUES
-(1, 'Jhon'),
-(2, 'Smith');
+(1, 'John'),
+(2, 'Peter'),
+(3, 'Buffet'),
+(4, 'Paul'),
+(5, 'Mary'),
+(6, 'Smith');
 
 --
 -- Indexek a kiírt táblákhoz

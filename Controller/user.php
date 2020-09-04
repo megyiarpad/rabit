@@ -1,6 +1,6 @@
 <?php 
 
-class ViewUser extends User
+class ShowUser extends User
 {
     public function showAllUsers() {
         $datas = $this->getAllUsers();
