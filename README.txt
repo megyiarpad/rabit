@@ -1,0 +1,2 @@
+Because it is a local hosted database, firstly we need to create a "rabit" named database, simpliest to use is phpmyadmin with xampp.
+In the database folder there is a SQL code that we need to run in the "rabit" database.
