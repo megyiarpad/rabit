@@ -21,5 +21,11 @@ body {
 }
 
 .result{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
     color: white;
+    font-size: 18px;
 }
